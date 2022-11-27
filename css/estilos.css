@@ -17,6 +17,30 @@ header {
 
 }
 
+.calculadora1{
+    width: 400px;
+    height: 400px;
+    background-color: rgb(225, 151, 61);
+    border: solid 2px;
+    margin: 10px;
+    
+    }
+
+.calculadora{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tamimg{
+    width:100%;
+    height: auto;
+    }
+
+    #MostrarP1{
+        display: none;
+    }
+
 #sobrenosotros{
     width: 100%px;
     height: 100px;
@@ -30,6 +54,7 @@ header {
 .contenedorcards{
     display: flex;
     justify-content: space-evenly;
+    
 }
 
 .notablesCaballito1{
@@ -73,14 +98,13 @@ header {
     margin-top: 40px;
 }
 
-
 footer {
     background-color: rgba(255, 255, 255, 0.747);
     text-align: center;
     display: flex;
     justify-content: space-between;
-    
     align-items: center;
+    
 
 }
 
